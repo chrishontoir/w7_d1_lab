@@ -4,10 +4,13 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(https://i.ytimg.com/vi/TInfxe7c7yA/maxresdefault.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #number {
   text-align: center;
+  border: 1px solid black;
 }
 
 .content {
@@ -28,5 +31,15 @@ body {
   top: calc(50% - 90px);
 }
 
-h1 {
+#submit {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 2px grey;
+}
+
+#submit:hover {
+  background-color: #0DF21E;
+  border: 1px solid black;
+  border-radius: 5px;
 }
