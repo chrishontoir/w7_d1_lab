@@ -13,6 +13,8 @@ FormView.prototype.bindEvents = function() {
     PubSub.publish("FormView:number-submitted", inputtedNumber);
     const container = document.querySelector('.content')
     container.classList.add('content-extended');
+    const input = document.querySelector('#number');
+    input.focus();
   });
 }
 
