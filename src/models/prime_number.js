@@ -12,11 +12,6 @@ PrimeNumber.prototype.bindEvents = function () {
   });
 }
 
-
-
-
-
-
 PrimeNumber.prototype.numberIsPrime = function (number) {
   if (number <= 1) {
     return false;
