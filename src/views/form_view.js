@@ -11,6 +11,8 @@ FormView.prototype.bindEvents = function() {
     const inputtedNumber = event.target.number.value;
     console.log("inputted number:", inputtedNumber);
     PubSub.publish("FormView:number-submitted", inputtedNumber);
+    const container = document.querySelector('.content')
+    container.classList.add('content-extended');
   });
 }
 
